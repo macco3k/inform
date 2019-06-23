@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x560d21ebebf0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x7f77a43004a0"/>
+  <item nodeId="node-0x560d21ebebf0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+test
+An Interactive Fiction by Daniele Maccari
+Release 1 / Serial number 190526 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Bedroom
+You are in your room. It&apos;s got a strange vibe, as if each of the previous tenants left something of their own in it. But you got used to it, and now it&apos;s just your room. You are sitting at your tiny desk -- some oddly shaped table from IKEA or something -- staring at some text on the screen of your laptop. You have been trying to read the same paragraph for the last five minutes, but the words seem to be slipping away from you as soon as you hop from one to the next while playing your inner monologue.  To your left, the only painted wall stands out lonely; it&apos;s a dark blue, although the hue is light enough for the color to still be recognizable, at least in daylight. From outside, you can hear some birds chirping, and sunlight glides in through the large, wall-wide window behind you, gifting your back with a nice, cozy feeling of warmth. To the east the only door leads to a small landing.
+
+A plain-looking, creamy painted door leads  to the landing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d21ebed70"/>
+      <child nodeId="node-0x560d2251e470"/>
+      <child nodeId="node-0x560d22575a30"/>
+      <child nodeId="node-0x560d22575d30"/>
+      <child nodeId="node-0x560d22592140"/>
+      <child nodeId="node-0x560d22592a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d21ebed70">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">The wall facing the entrance to the bedroom is painted a dark blue, and some abstract paintings from some unknown African artist are hanged above the bed.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d21ebeef0"/>
+      <child nodeId="node-0x7f779c486bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d21ebeef0">
+    <command xml:space="preserve">x landing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251e170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251e170">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Landing
+A small landing providing access to the rooms on the second floor of the house. East you can see the bathroom, but the door is locked. You can hear the water in the shower running, but the light is off. Weird.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251e2f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251e2f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Landing
+A small landing providing access to the rooms on the second floor of the house. East you can see the bathroom, but the door is locked. You can hear the water in the shower running, but the light is off. Weird.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f779c486bc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+The Landing
+A small landing providing access to the rooms on the second floor of the house. To the right you can see the bathroom; you can tell the door have been locked from the inside from the old-fashioned bolt lock. You can see no light coming from the small glass pane above the door. The light is off as well, but you can hear the water in the shower running. Weird.
+
+A plain-looking, creamy painted door leads back to the bedroom.
+
+Another door leads to the bathroom. You can see a bolt lock next to the handle.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f779c486a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f779c486a40">
+    <command xml:space="preserve">touch lock</command>
+    <result xml:space="preserve">You can&apos;t reach it from this side. What would be the point otherwise?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f779c486740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f779c486740">
+    <command xml:space="preserve">turn</command>
+    <result xml:space="preserve">What do you want to turn?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f779c486d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f779c486d40">
+    <command xml:space="preserve">the lock</command>
+    <result xml:space="preserve">You can&apos;t reach it from this side. What would be the point otherwise?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d2251e470">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+The Landing
+A small landing providing access to the rooms on the second floor of the house. To the right you can see the bathroom; you can tell the door have been locked from the inside from the old-fashioned bolt lock. You can see no light coming from the small glass pane above the door. The light is off as well, but you can hear the water in the shower running. Weird.
+
+A plain-looking, creamy painted door leads back to the bedroom.
+
+Another door leads to the bathroom. You can see a bolt lock next to the handle.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251e5f0"/>
+      <child nodeId="node-0x560d2251ed70"/>
+      <child nodeId="node-0x560d2253a4b0"/>
+      <child nodeId="node-0x560d2253a7b0"/>
+      <child nodeId="node-0x560d2253ac30"/>
+      <child nodeId="node-0x560d225758b0"/>
+      <child nodeId="node-0x7f77a0127740"/>
+      <child nodeId="node-0x7f77a0127ec0"/>
+      <child nodeId="node-0x7f77a43004a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251e5f0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251e770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251e770">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bedroom
+You are in your room. It&apos;s got a strange vibe, as if each of the previous tenants left something of their own in it. But you got used to it, and now it&apos;s just your room. You are sitting at your tiny desk -- some oddly shaped table from IKEA or something -- staring at some text on the screen of your laptop. You have been trying to read the same paragraph for the last five minutes, but the words seem to be slipping away from you as soon as you hop from one to the next while playing your inner monologue.  To your left, the only painted wall stands out lonely; it&apos;s a dark blue, although the hue is light enough for the color to still be recognizable, at least in daylight. From outside, you can hear some birds chirping, and sunlight glides in through the large, wall-wide window behind you, gifting your back with a nice, cozy feeling of warmth. To the east the only door leads to a small landing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251e8f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251e8f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Landing
+A small landing providing access to the rooms on the second floor of the house. To the right you can see the bathroom, although you can see the door have been locked. You can see no light coming from the small glass pane above the door. They probably did not even bother to raise the shutter. The light is off as well, but you can hear the water in the shower running. Weird.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251ea70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251ea70">
+    <command xml:space="preserve">mao</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251ebf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251ebf0">
+    <command xml:space="preserve">map</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d2251ed70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2251eef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2251eef0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Bedroom Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2253a1b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2253a1b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2253a330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2253a330">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d2253a4b0">
+    <command xml:space="preserve">close the door</command>
+    <result xml:space="preserve">You close the Bedroom Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2253a630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2253a630">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bedroom
+You are in your room. It&apos;s got a strange vibe, as if each of the previous tenants left something of their own in it. But you got used to it, and now it&apos;s just your room. You are sitting at your tiny desk -- some oddly shaped table from IKEA or something -- staring at some text on the screen of your laptop. You have been trying to read the same paragraph for the last five minutes, but the words seem to be slipping away from you as soon as you hop from one to the next while playing your inner monologue.  To your left, the only painted wall stands out lonely; it&apos;s a dark blue, although the hue is light enough for the color to still be recognizable, at least in daylight. From outside, you can hear some birds chirping, and sunlight glides in through the large, wall-wide window behind you, gifting your back with a nice, cozy feeling of warmth. To the east the only door leads to a small landing.
+
+You can see a Bedroom Door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d2253a7b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bedroom
+You are in your room. It&apos;s got a strange vibe, as if each of the previous tenants left something of their own in it. But you got used to it, and now it&apos;s just your room. You are sitting at your tiny desk -- some oddly shaped table from IKEA or something -- staring at some text on the screen of your laptop. You have been trying to read the same paragraph for the last five minutes, but the words seem to be slipping away from you as soon as you hop from one to the next while playing your inner monologue.  To your left, the only painted wall stands out lonely; it&apos;s a dark blue, although the hue is light enough for the color to still be recognizable, at least in daylight. From outside, you can hear some birds chirping, and sunlight glides in through the large, wall-wide window behind you, gifting your back with a nice, cozy feeling of warmth. To the east the only door leads to a small landing.
+
+You can see a Bedroom Door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2253a930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2253a930">
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">You close the Bedroom Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2253aab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2253aab0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Bedroom Door)
+
+The Landing
+A small landing providing access to the rooms on the second floor of the house. To the right you can see the bathroom; you can tell the door have been locked from the inside because the old-fashioned turning lock is set on red. You can see no light coming from the small glass pane above the door; they probably did not even bother to raise the shutter. The light is off as well, but you can hear the water in the shower running. Weird.
+
+You can see a Bedroom Door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d2253ac30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The door is locked. You can hear the shower running, but no light is sifting through the door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2253adb0"/>
+      <child nodeId="node-0x560d225752b0"/>
+      <child nodeId="node-0x560d22575730"/>
+      <child nodeId="node-0x7f77a0127bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2253adb0">
+    <command xml:space="preserve">x bathroom</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d2253af30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d2253af30">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Which do you mean, the bedroom door or the bathroom door?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d22575130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d22575130">
+    <command xml:space="preserve">bathroom</command>
+    <result xml:space="preserve">You see nothing special about the bathroom door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d225752b0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">Which do you mean, the bedroom door or the bathroom&apos;s door?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d22575430"/>
+      <child nodeId="node-0x560d22592ec0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d22575430">
+    <command xml:space="preserve">bathroom&apos;s</command>
+    <result xml:space="preserve">What do you want to unlock the bathroom&apos;s door with?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d225755b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d225755b0">
+    <command xml:space="preserve">nothing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d22592ec0">
+    <command xml:space="preserve">bedroom</command>
+    <result xml:space="preserve">What do you want to unlock the bedroom door with?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d22592d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d22592d40">
+    <command xml:space="preserve">nothing</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d22575730">
+    <command xml:space="preserve">SHOWME turning locker</command>
+    <result xml:space="preserve">Turning Locker - thing
+location: the bathroom&apos;s door in The Landing
+singular-named, improper-named; unlit, inedible, portable
+list grouping key: none
+printed name: &quot;Turning Locker&quot;
+printed plural name: none
+indefinite article: none
+description: none
+initial appearance: none
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f77a0127bc0">
+    <command xml:space="preserve">x lock</command>
+    <result xml:space="preserve">You see nothing special about the Indicator Bolt Lock.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d225758b0">
+    <command xml:space="preserve">x bathroom</command>
+    <result xml:space="preserve">You see nothing special about the bathroom door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f77a0127740">
+    <command xml:space="preserve">x lock</command>
+    <result xml:space="preserve">You see nothing special about the bolt lock.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a01278c0"/>
+      <child nodeId="node-0x7f77a4300c20"/>
+      <child nodeId="node-0x7f77a4300f20"/>
+      <child nodeId="node-0x7f779c486440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a01278c0">
+    <command xml:space="preserve">x bathroom&apos;s door</command>
+    <result xml:space="preserve">You see nothing special about the bathroom&apos;s door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a0127a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a0127a40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The door is locked. You can hear the shower running, but no light is sifting through the door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f77a4300c20">
+    <command xml:space="preserve">take lock</command>
+    <result xml:space="preserve">You can&apos;t reach it from this side. What would be the point otherwise?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f77a4300f20">
+    <command xml:space="preserve">look at lock</command>
+    <result xml:space="preserve">You see nothing special about the bolt lock.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a4300da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a4300da0">
+    <command xml:space="preserve">describe</command>
+    <result xml:space="preserve">What do you want to describe?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f779c486140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f779c486140">
+    <command xml:space="preserve">lock</command>
+    <result xml:space="preserve">What do you want to lock?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f779c4862c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f779c4862c0">
+    <command xml:space="preserve">describe lock</command>
+    <result xml:space="preserve">You see nothing special about the bolt lock.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f779c486440">
+    <command xml:space="preserve">use lock</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f779c4865c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f779c4865c0">
+    <command xml:space="preserve">get lock</command>
+    <result xml:space="preserve">You can&apos;t reach it from this side. What would be the point otherwise?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f77a0127ec0">
+    <command xml:space="preserve">take lock</command>
+    <result xml:space="preserve">The lock is tightly secured to the door and you can&apos;t seem to pull it off.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a0127d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a0127d40">
+    <command xml:space="preserve">x lock</command>
+    <result xml:space="preserve">You see nothing special about the bolt lock.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a43001a0"/>
+      <child nodeId="node-0x7f779c4868c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a43001a0">
+    <command xml:space="preserve">turn lock</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a4300320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a4300320">
+    <command xml:space="preserve">touch lock</command>
+    <result xml:space="preserve">You can&apos;t reach it from this side. What would be the point otherwise?.
+
+You feel nothing unexpected.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f779c4868c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The door is locked. You can hear the shower running, but no light is sifting through the door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f77a43004a0">
+    <command xml:space="preserve">touch lock</command>
+    <result xml:space="preserve">Probably aluminium, but you can&apos;t be sure.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f779c486ec0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f779c486ec0">
+    <command xml:space="preserve">x lock</command>
+    <result xml:space="preserve">You see nothing special about the bolt lock.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f78005d2140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f78005d2140">
+    <command xml:space="preserve">take lock</command>
+    <result xml:space="preserve">The lock is tightly secured to the door and there&apos;s no way you can pull it out.
+You can&apos;t reach it from this side. What would be the point otherwise?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d22575a30">
+    <command xml:space="preserve">pick door</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d22575bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d22575bb0">
+    <command xml:space="preserve">take door</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d22575d30">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d22575eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d22575eb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+The Landing
+A small landing providing access to the rooms on the second floor of the house. To the right you can see the bathroom; you can tell the door have been locked from the inside because the old-fashioned turning lock is set on red. You can see no light coming from the small glass pane above the door; they probably did not even bother to raise the shutter. The light is off as well, but you can hear the water in the shower running. Weird.
+
+A plain-looking, creamy painted door leads to the landing.
+
+Another plain-looking, creamy painted door. You are starting to see a pattern here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d22592140">
+    <command xml:space="preserve">lock door</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a0127140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a0127140">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bedroom
+You are in your room. It&apos;s got a strange vibe, as if each of the previous tenants left something of their own in it. But you got used to it, and now it&apos;s just your room. You are sitting at your tiny desk -- some oddly shaped table from IKEA or something -- staring at some text on the screen of your laptop. You have been trying to read the same paragraph for the last five minutes, but the words seem to be slipping away from you as soon as you hop from one to the next while playing your inner monologue.  To your left, the only painted wall stands out lonely; it&apos;s a dark blue, although the hue is light enough for the color to still be recognizable, at least in daylight. From outside, you can hear some birds chirping, and sunlight glides in through the large, wall-wide window behind you, gifting your back with a nice, cozy feeling of warmth. To the east the only door leads to a small landing.
+
+A plain-looking, creamy painted door leads  to the landing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a01272c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a01272c0">
+    <command xml:space="preserve">showme door</command>
+    <result xml:space="preserve">(the bedroom door)
+bedroom door - open door
+location: in the Bedroom
+singular-named, improper-named; unlit, inedible, fixed in place; open, openable, unlocked
+list grouping key: none
+printed name: &quot;bedroom door&quot;
+printed plural name: &quot;doors&quot;
+indefinite article: none
+description: none
+initial appearance: &quot;A plain-looking, creamy painted door leads  to the landing.&quot;
+other side: The Landing
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a0127440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a0127440">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+The Landing
+A small landing providing access to the rooms on the second floor of the house. To the right you can see the bathroom; you can tell the door have been locked from the inside from the old-fashioned bolt lock. You can see no light coming from the small glass pane above the door. The light is off as well, but you can hear the water in the shower running. Weird.
+
+A plain-looking, creamy painted door leads back to the bedroom.
+
+Another plain-looking, creamy painted door leads to the bathroom.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f77a01275c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f77a01275c0">
+    <command xml:space="preserve">x lock</command>
+    <result xml:space="preserve">You see nothing special about the Indicator Bolt Lock.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x560d22592a40">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x560d22592bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x560d22592bc0">
+    <command xml:space="preserve">x indicator lock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
